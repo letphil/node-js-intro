@@ -1,7 +1,5 @@
 # Node.js Terminal Exercises
 
-Here are 20 simple Node.js exercises that students can run in the terminal. These exercises are designed to challenge novice programmers without being too difficult, and each should take approximately 5-10 minutes to complete.
-
 ## Exercise 1: Hello World
 
 Write a Node.js program that outputs "Hello, World!" to the console.

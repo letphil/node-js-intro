@@ -10,7 +10,11 @@ create simple server and serve static files
 
 ## to run project
 
-    npm run start
+    npm run dev
+
+## to stop server
+
+    ctrl + c
 
 ## packages
 
@@ -20,3 +24,4 @@ create simple server and serve static files
 ## steps
 
     1. npm init -y
+    2. npm install express path

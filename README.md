@@ -87,7 +87,7 @@ This is a 2-hour lesson that introduces the basics of Node.js and Express. It co
 
 - Set up a basic server using Express.
 
-1. **Create a Simple Server (10 minutes)**
+1. **Create a Simple Server**
 
    - Create `app.js` and add the following code:
 

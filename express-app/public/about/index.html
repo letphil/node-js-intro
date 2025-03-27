@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    about page
+    <script>
+      console.log("HELLO");
+      async function getData() {
+        const res = await (await fetch("/get-info")).json();
+        console.log(res);
+        document.body.append(JSON.stringify(res, null, 2));
+      }
+      getData();
+    </script>
+  </body>
+</html>
